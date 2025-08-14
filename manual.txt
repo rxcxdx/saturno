@@ -1,0 +1,4 @@
+tenho que ter o lodash (por causa do reducer)
+--------------------------------------------
+npm run dev
+npm run build

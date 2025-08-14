@@ -1,0 +1,34 @@
+{
+  "name": "saturno",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build -c rsbuild.prod.config.mjs"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.6.1",
+    "axios": "^1.8.4",
+    "bootstrap": "^5.3.6",
+    "delay": "^6.0.0",
+    "grommet": "^2.48.0",
+    "lodash-es": "^4.17.21",
+    "nanoid": "^5.1.5",
+    "object-path-immutable": "^4.1.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-error-boundary": "^5.0.0",
+    "react-redux": "^9.2.0",
+    "react-use": "^17.6.0",
+    "sonner": "^2.0.7"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "1.2.16",
+    "@rsbuild/plugin-react": "1.1.1",
+    "eslint": "^9.28.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "prettier": "^3.5.3"
+  }
+}

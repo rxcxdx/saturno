@@ -1,0 +1,7 @@
+580K dist/ com:
+import 'bootstrap/dist/css/bootstrap-reboot.css'
+import 'bootstrap/dist/css/bootstrap-grid.css'
+import 'bootstrap/dist/css/bootstrap-utilities.css'
+npm run dev
+npm run build
+npm run formatar
